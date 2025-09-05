@@ -1,8 +1,39 @@
 body {
-    background-color: rgb(1, 9, 5);
+    background-color: #e5eef2;
+    margin: 0;
+    padding: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+
+}
+
+h1 {
+    font-size: 1.7rem;
+    color: #1f6f8b;
+    margin-bottom: 1rem;
+    text-align: left;
 
 }
 
 p {
-    color: rgb(235, 235, 239);
+    font-size: 1.2rem;
+    color: #08323a;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    text-align: left;
+
+}
+
+figure {
+    margin: 0 0 1rem 0;
+    text-align: left;
+
+}
+
+figure img {
+    max-height: 50vh;
+    width: auto;
+    max-width: 1000%;
+
+    border-radius: 6px;
 }
